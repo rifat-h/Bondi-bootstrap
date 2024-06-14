@@ -1,0 +1,844 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  //sizes
+  $title: 30px;
+  $pd: 40px;
+  $pdb: (40-16) + px;
+
+  //<!--header start-->
+  header {
+    nav {
+      ul {
+        li {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+
+  .cusbtn {
+    padding: 6px 38px 6px 38px !important;
+  }
+  //<!--header end-->
+
+  //<!--banner start-->
+  .banner {
+    padding: 100px 0;
+  }
+
+  .banner_wrapper {
+    h1 {
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 6px 40px;
+      font-size: 15px;
+    }
+  }
+
+  //<!--banner end-->
+
+  //<!--good start-->
+  .good {
+    padding-top: $pd;
+    padding-bottom: $pdb;
+  }
+
+  .good_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+  }
+  .good_wrapper2-1 {
+    p {
+      font-size: 15px;
+      line-height: 27px;
+    }
+  }
+  //<!--good end-->
+
+  //<!--make start-->
+  .make {
+    padding: $pd 0;
+  }
+
+  .make_wrapper1 {
+    h4 {
+      margin-top: 40px;
+      font-size: $title;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    ul {
+      margin-top: 80px;
+
+      li {
+        margin: 0 3px;
+
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .make_wrapper2 {
+    padding: 80px 20px (80-16)+px 15px;
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .make_wrapper3 {
+
+    button {
+      font-size: 15px;
+    }
+  }
+
+  //<!--make end-->
+
+  //<!--about start-->
+  .about {
+    padding: $pd 0;
+  }
+
+  .about_wrapper1 {
+    p {
+      &:last-of-type {
+        text-align: left !important;
+      }
+    }
+
+    h4 {
+      font-size: $title;
+    }
+  }
+
+  .about_wrapper2 {
+    text-align: center;
+    margin-top: 0;
+
+    h4 {
+      font-size: $title;
+    }
+
+
+    button {
+      padding: 6px 40px;
+      font-size: 14px;
+    }
+  }
+
+  .about_wrapper3 {
+    margin-top: 60px;
+  }
+
+  //<!--about end-->
+
+  //<!--about start-->
+  .about {
+    padding: $pd 0;
+  }
+
+  .about_wrapper1 {
+    p {
+      &:last-of-type {
+        text-align: left !important;
+      }
+    }
+
+    h4 {
+      font-size: $title;
+    }
+  }
+
+  .about_wrapper2 {
+    text-align: center;
+    margin-top: 0;
+
+    h4 {
+      font-size: $title;
+    }
+
+
+    button {
+      padding: 6px 40px;
+      font-size: 14px;
+    }
+  }
+
+  .about_wrapper3 {
+    margin-top: 60px;
+  }
+
+  //<!--about end-->
+
+  //<!--team start-->
+  .team {
+    padding: $pd 0;
+  }
+
+  .team_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .team_wrapper2 {
+    text-align: center;
+    margin-top: 25px;
+
+    h5 {
+      margin-bottom: 0;
+      font-size: 19px;
+      padding: 15px 0;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    img {
+      height: 250px;
+    }
+
+  }
+
+  .py1 {
+    padding: 40px 10px;
+  }
+
+  .py2 {
+    padding: 19px 10px;
+  }
+  //<!--team end-->
+
+
+  //<!--customar start-->
+  .customer {
+    padding: $pd 0;
+  }
+
+  .cus_wrapper1 {
+    img {
+      margin-top: 20px;
+    }
+  }
+
+  //<!--customar end-->
+
+  //<!--project start-->
+  .project {
+    padding: $pd 0;
+  }
+
+  .project_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+
+    button {
+      padding: 6px 30px;
+    }
+  }
+
+  //<!--project end-->
+
+  //<!--blog start-->
+  .blog {
+    padding: $pd 0;
+  }
+
+
+  .blog_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+  }
+
+  .blog_wrapper3 {
+    button {
+      padding: 6px 25px;
+    }
+  }
+
+  //<!--blog end-->
+
+  //<!--newsletter start-->
+
+  .newsletter_wrapper {
+    text-align: center;
+
+    p {
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+
+    button {
+      margin-top: 20px;
+    }
+
+    ::placeholder {
+      text-align: center;
+    }
+  }
+  //<!--newsletter end-->
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  //sizes
+  $title: 32px;
+  $pd: 50px;
+  $pdb: (50-16) + px;
+
+  //<!--header start-->
+  header {
+    nav {
+      ul {
+        li {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+
+  .cusbtn {
+    padding: 6px 38px 6px 38px !important;
+  }
+  //<!--header end-->
+
+  //<!--banner start-->
+  .banner {
+    padding: 100px 0;
+  }
+
+  .banner_wrapper {
+    h1 {
+      font-size: 36px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 6px 40px;
+      font-size: 15px;
+    }
+  }
+
+  //<!--banner end-->
+
+  //<!--good start-->
+  .good {
+    padding-top: $pd;
+    padding-bottom: $pdb;
+  }
+
+  .good_wrapper2 {
+  }
+
+  .good_wrapper2-1 {
+
+    p {
+      font-size: 15px;
+      line-height: 27px;
+    }
+  }
+  //<!--good end-->
+
+  //<!--make start-->
+  .make {
+    padding: $pd 0;
+  }
+
+  .make_wrapper1 {
+    h4 {
+      margin-top: 40px;
+      font-size: $title;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    ul {
+      margin-top: 80px;
+
+      li {
+
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .make_wrapper2 {
+    padding: 80px 20px (80-16)+px 15px;
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .make_wrapper3 {
+
+    button {
+      font-size: 15px;
+    }
+  }
+
+  //<!--make end-->
+
+  //<!--about start-->
+  .about {
+    padding: $pd 0;
+  }
+
+  .about_wrapper1 {
+    p {
+      &:last-of-type {
+        text-align: left !important;
+      }
+    }
+
+    h4 {
+      font-size: $title;
+    }
+  }
+
+  .about_wrapper2 {
+    text-align: center;
+    margin-top: 0;
+
+    h4 {
+      font-size: $title;
+    }
+
+
+    button {
+      padding: 6px 40px;
+      font-size: 14px;
+    }
+  }
+
+  .about_wrapper3 {
+    margin-top: 60px;
+  }
+
+  //<!--about end-->
+
+  //<!--team start-->
+  .team {
+    padding: $pd 0;
+  }
+
+  .team_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .team_wrapper2 {
+    text-align: center;
+    margin-top: 25px;
+
+    h5 {
+      margin-bottom: 0;
+      font-size: 19px;
+      padding: 15px 0;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    img {
+      height: 250px;
+    }
+
+  }
+
+  .py1 {
+    padding: 40px 10px;
+  }
+
+  .py2 {
+    padding: 19px 10px;
+  }
+  //<!--team end-->
+
+  //<!--customar start-->
+  .customer {
+    padding: $pd 0;
+  }
+
+  .cus_wrapper1 {
+    img {
+      margin-top: 20px;
+    }
+  }
+
+  //<!--customar end-->
+
+  //<!--project start-->
+  .project {
+    padding: $pd 0;
+  }
+
+  .project_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+
+  }
+
+  //<!--project end-->
+
+  //<!--blog start-->
+  .blog {
+    padding: $pd 0;
+  }
+
+
+  .blog_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+  }
+
+  .blog_wrapper3 {
+    button {
+      padding: 6px 30px;
+    }
+  }
+
+  //<!--blog end-->
+
+  //<!--newsletter start-->
+
+  .newsletter_wrapper {
+    p {
+      font-size: 15px;
+    }
+  }
+  //<!--newsletter end-->
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  //sizes
+  $title: 33px;
+  $pd: 60px;
+  $pdb: (60-16) + px;
+
+  //<!--header start-->
+  header {
+    nav {
+      ul {
+        li {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+
+  .cusbtn {
+    padding: 6px 38px 6px 38px !important;
+  }
+  //<!--header end-->
+
+  //<!--banner start-->
+  .banner {
+    padding: 100px 0;
+  }
+
+  .banner_wrapper {
+    h1 {
+      font-size: 41px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 6px 40px;
+      font-size: 16px;
+    }
+  }
+
+  //<!--banner end-->
+
+  //<!--good start-->
+  .good {
+    padding-top: $pd;
+    padding-bottom: $pdb;
+  }
+  .good_wrapper2-1 {
+    p {
+      margin-top: 20px;
+      font-size: 15px;
+      line-height: 27px;
+    }
+  }
+  //<!--good end-->
+
+  //<!--make start-->
+  .make {
+    padding: $pd 0;
+  }
+
+  .make_wrapper1 {
+    h4 {
+      margin-top: 40px;
+      font-size: $title;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    ul {
+      margin-top: 80px;
+
+      li {
+
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .make_wrapper2 {
+    padding: 80px 20px (80-16)+px 15px;
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .make_wrapper3 {
+
+    button {
+      font-size: 15px;
+    }
+  }
+
+  //<!--make end-->
+
+  //<!--about start-->
+  .about {
+    padding: $pd 0;
+  }
+
+  .about_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+  }
+
+  .about_wrapper2 {
+    margin-top: 0;
+
+    h4 {
+      font-size: $title;
+    }
+
+
+    button {
+      padding: 6px 40px;
+      font-size: 14px;
+    }
+  }
+
+  .about_wrapper3 {
+    margin-top: 60px;
+  }
+
+  //<!--about end-->
+
+  //<!--team start-->
+  .team {
+    padding: $pd 0;
+  }
+
+  .team_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 70px;
+    }
+  }
+
+  .team_wrapper2 {
+    text-align: center;
+
+    h5 {
+      margin-bottom: 0;
+      font-size: 19px;
+      padding: 15px 0;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    img {
+      height: 250px;
+    }
+
+  }
+
+  .py1 {
+    padding: 40px 10px;
+  }
+
+  .py2 {
+    padding: 19px 10px;
+  }
+  //<!--team end-->
+
+  //<!--project start-->
+  .project {
+    padding: $pd 0;
+  }
+
+  .project_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+
+  }
+
+  //<!--project end-->
+
+  //<!--blog start-->
+  .blog {
+    padding: $pd 0;
+  }
+
+
+  .blog_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+
+  }
+
+  .blog_wrapper3 {
+    button {
+      padding: 6px 30px;
+    }
+  }
+
+  //<!--blog end-->
+
+  //<!--newsletter start-->
+
+  .newsletter_wrapper {
+    p {
+      font-size: 16px;
+    }
+  }
+  //<!--newsletter end-->
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  //sizes
+  $title: 35px;
+  $pd: 70px;
+  $pdb: (70-16) + px;
+
+  //<!--team start-->
+  .team {
+    padding: $pd 0;
+  }
+
+  .team_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 70px;
+    }
+  }
+
+  .team_wrapper2 {
+    text-align: center;
+
+    h5 {
+      margin-bottom: 0;
+      font-size: 20px;
+      padding: 15px 0;
+    }
+
+    p {
+      font-size: 15px;
+      margin-bottom: 0 !important;
+    }
+
+    img {
+      height: 300px;
+    }
+
+  }
+
+  .py1 {
+    padding: 40px 20px;
+  }
+
+  .py2 {
+    padding: 19px 20px;
+  }
+  //<!--team end-->
+
+  //<!--newsletter start-->
+
+  .newsletter_wrapper {
+    p {
+      font-size: 16px;
+    }
+  }
+  //<!--newsletter end-->
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
